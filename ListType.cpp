@@ -54,7 +54,6 @@ template <class T>
 bool ListType<T>::isRoom()
 {
     // Note: There is no standard way to do this with 100% certainty.
-    // This is one approach - (Dr. S.W Smith)
     NodeType *n1;
     n1 = new NodeType;
     // Allocation failure returns nullptr
